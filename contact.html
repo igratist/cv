@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact me</title>
+</head>
+
+<body>
+    <h1>My contact information</h1>
+    <ul>
+        <li class="contact1"><strong>Phone:</strong> 8-1234567</li>
+        <li class="contact2"><strong>VK: </strong><a href="https://vk.com/oliver_krivel">Profile</a></li>
+        <li class="contact3"><strong>Email: </strong><a href="mailto:igratist@mail.ru">igratist@mail.ru</a></li>
+    </ul>
+    <hr>
+    <form action="mailto:igratist@mail.ru" method="post" enctype="text/plain">
+        <label for="username">Your Name:</label><br>
+        <input name="username" id="username" type="text"><br>
+        <label for="useremail">Your email:</label><br>
+        <input name="useremail" id="useremail" type="email"><br><br>
+        <label for="userdate">Today is:</label><br>
+        <input name="userdate" id="userdate" type="date"><br><br>
+        <label for="userfile">Want to send me something?</label><br>
+        <input name="userfile" id="userfile" type="file"><br><br>
+        <label for="age">How old are you?</label><br>        
+        <input name="userage" id="age" type="range"><br><br>
+        <label for="message">Your message:</label><br>
+        <textarea name="usermessagee" id="message" cols="40" rows="10" wrap="soft"></textarea><br><br>
+<!--
+        <label>What is your browser?</label><br>
+        <input type="radio"><label>Google Chrome</label><br>
+        <input type="radio"><label>Yandex.Browser</label><br>
+        <input type="radio"><label>Firefox</label><br>
+        <input type="radio"><label>Edge</label><br>
+-->
+        <input type="submit"><br>
+    </form>
+</body>
+
+</html>
